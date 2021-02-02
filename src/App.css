@@ -1,0 +1,67 @@
+.App {
+  background-color: lightsalmon;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.QuoteContainer {
+  background-color:#FFF;
+  height: 50vh;
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  border-radius: 7px;
+}
+
+.QuoteBody {
+  width: 100%;
+  margin: 1rem;
+}
+
+.buttons-container {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.buttons-container button {
+  background-color: lightsalmon;
+  border-radius: 5px;
+  color: #FFF;
+  font-weight: bolder;
+  border: none;
+  height: 5vh;
+  width: 15vw;
+}
+
+@media(max-width: 500px) {
+  .QuoteContainer {
+    height: 90vh;
+    width: 80vw;
+  }
+
+  .buttons-container button {
+    height: 5vh;
+    width: 35vw;
+  }
+}
+
+@media(max-width: 800px) {
+  .QuoteContainer {
+    height: 70vh;
+    width: 90vw;
+  }
+
+  .buttons-container button {
+    height: 5vh;
+    width: 35vw;
+  }
+}
